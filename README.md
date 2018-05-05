@@ -42,7 +42,7 @@ It will install all the dependencies for you.
 **or manually the procedure will look like this:**
 <br>
 
-I will assume you are using anaconda: currently this is where I do everything, Linux is on to do list.
+Assuming you are using anaconda: currently this is where I do everything, Linux is on to do list.
 
 * [Numpy](https://anaconda.org/anaconda/numpy) : conda install -c anaconda numpy 
 * [NLTK](https://anaconda.org/anaconda/nltk) : conda install -c anaconda nltk
@@ -57,10 +57,10 @@ I will assume you are using anaconda: currently this is where I do everything, L
 <br>
 Visualization done through keras visualization packages. Simply by typing these two command before return your model.
 
-> from keras.utils.vis_utils import plot_model
+> **from keras.utils.vis_utils import plot_model**
 <br>
 
-> plot_model(model, to_file='multichannel.png', show_layer_names=True, show_shape=True)
+> **plot_model(model, to_file='multichannel.png', show_layer_names=True, show_shape=True)**
 <br>
 
 # Tokenization procedure:
@@ -110,7 +110,7 @@ The data is already clean for use but we should turn these document to a real to
 # Run the model with:
 <br>
 
-> python NN_for_SAnalysis.py 
+> **python NN_for_SAnalysis.py** 
 <br>
 
 All the credit goes to [machinelearningmastry](https://machinelearningmastery.com)
